@@ -6,4 +6,5 @@ This bash script simplifies the implementation of settings, installation of spec
 https://www.pureos.net/
 
 Log into PureOS as root and run the following command:
+
 wget -O --https-only - https://github.com/flintsaw/harduser/blob/main/harduser.sh | bash
