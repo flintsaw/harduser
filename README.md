@@ -7,4 +7,4 @@ https://www.pureos.net/
 
 Log into PureOS as root and run the following command:
 
-wget -O /home/harduser/wallpaper - https://github.com/flintsaw/harduser/blob/main/harduser.sh | bash
+wget -O - https://github.com/flintsaw/harduser/blob/main/harduser.sh | bash
