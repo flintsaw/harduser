@@ -4,8 +4,7 @@ THIS IS STILL A ROUGH SKETCH. THE SCRIPT WON’T RUN IN THIS STATE
 #INITIAL GREETING
 echo “Welcome to the PureOS hardening script”
 mkdir /home/harduser
-cd /home/harduser
-wget -O --https-only - https://github.com/flintsaw/harduser/blob/main/clamav.conf
+wget -O - https://github.com/flintsaw/harduser/blob/main/clamav.conf -P /home/harduser
 #Any user input here?
 #check for root.
 #check for internet connectivity
